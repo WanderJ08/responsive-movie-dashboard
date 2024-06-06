@@ -8,9 +8,6 @@ Welcome to Wander-Movies, a responsive movie dashboard designed to provide a sle
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Features
 - **Responsive Design:** Optimized for both desktop and mobile viewing.
 - **Dynamic Content:** Browse through different categories including Movies, Series, and Favorites.
