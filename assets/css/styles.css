@@ -309,6 +309,9 @@ img {
   transition: opacity .4s;
 }
 
+.movie, .new {
+  text-align: center;
+}
 
 .swiper-slide-active .new__data {
   opacity: 1;
@@ -411,12 +414,10 @@ img {
 }
 
 @media screen and (min-width: 1300px) {
-  .banner__card, 
-  .banner__img {
+  .banner__card, .banner__img {
     height: 480px;
   }
-  .banner__img, 
-  .banner__shadow {
+  .banner__img, .banner__shadow {
     border-radius: 2rem;
   }
 
@@ -433,5 +434,8 @@ img {
   }
   .card__category {
     font-size: .938rem;
+}
+  .header__search {
+    width: 600px;
   }
 }
