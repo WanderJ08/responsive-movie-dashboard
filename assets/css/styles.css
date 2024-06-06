@@ -388,7 +388,7 @@ img {
   .header {
     width: calc(100% - 17rem);
     left: initial;
-    right: 0;
+    right: 0px;
     height: calc(3.5rem + 2rem);
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
@@ -411,13 +411,22 @@ img {
   }
   
   .banner__category {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .banner__card, .banner__img {
     height: 480px;
+  }
+  .banner__img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+  }
+  .banner__category{
+    font-size: 1.5rem;
   }
   .banner__img, .banner__shadow {
     border-radius: 2rem;
