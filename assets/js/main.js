@@ -1,23 +1,21 @@
-/*=============== SHOW MENU ===============*/
 const nav = document.getElementById('nav'),
       headerMenu = document.getElementById('header-menu'),
       navClose = document.getElementById('nav-close')
 
-/* Menu show */
+// mostrar menu
 if(headerMenu){
    headerMenu.addEventListener('click', () =>{
       nav.classList.add('show-menu')
    })
 }
 
-/* Menu hidden */
+// ocultar menu
 if(navClose){
     navClose.addEventListener('click', () =>{
       nav.classList.remove('show-menu')
    })
 }
-
-/*=============== SWIPER MOVIE ===============*/
+// codigo del swiper
 let swiperMovie = new Swiper('.movie__swiper', {
    loop: true,
    grabCursor: true,
@@ -29,15 +27,14 @@ let swiperMovie = new Swiper('.movie__swiper', {
          slidesPerView: 'auto',
       },
       768: {
-         slidesPerView: 4,
+         slidesPerView: 5,
       },
       1200: {
          slidesPerView: 5,
       },
    },
 })
-
-/*=============== SWIPER NEW ===============*/
+// codigo del swiper de nuevas peliculas
 let swiperNew = new Swiper('.new__swiper', {
    loop: true,
    grabCursor: true,
@@ -65,10 +62,9 @@ let swiperNew = new Swiper('.new__swiper', {
    },
 })
 
-/*=============== ADD BLUR HEADER ===============*/
+// codigo para header borroso
 const blurHeader = () =>{
    const header = document.getElementById('header')
-   // Add a class if the bottom offset is greater than 50 of the viewport
    this.scrollY >= 50 ? header.classList.add('blur-header') 
                       : header.classList.remove('blur-header')
 }
