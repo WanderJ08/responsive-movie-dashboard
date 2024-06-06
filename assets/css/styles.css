@@ -194,7 +194,6 @@ img {
   right: 0;
 }
 
-
 .banner__link {
   position: relative;
   display: grid;
@@ -205,6 +204,7 @@ img {
 .banner__img {
   border-radius: 1rem;
 }
+
 
 .banner__shadow {
   position: absolute;
@@ -217,6 +217,7 @@ img {
              hsla(0, 0%, 0%, .7) 78%);
   border-radius: 1rem;
 }
+
 
 .banner__data {
   position: absolute;
@@ -408,6 +409,7 @@ img {
   .banner__data {
     bottom: 2.5rem;
   }
+  
   .banner__category {
     font-size: 2.25rem;
   }
